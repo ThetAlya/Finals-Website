@@ -13,7 +13,7 @@
 body {
     width: 100%;
     height: auto;
-    background: radial-gradient(circle,rgba(91, 27, 140, 1) 0%, rgba(46, 0, 110, 1) 69%);
+    background: radial-gradient(circle,rgb(106, 40, 168) 0%, rgb(66, 11, 143) 69%);
     overflow-x: hidden;
 }
 
