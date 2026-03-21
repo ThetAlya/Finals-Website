@@ -114,7 +114,7 @@ nav {
 }
 
 .nav-container .links a:hover, .nav-container .links a:active {
-    color: #f1e573;
+    color: #f1e573; 
     border-bottom: 3px solid #4C00BA;
 }
 
@@ -188,18 +188,66 @@ span {
     border-radius: var(--bulma-box-radius);
 }
 
-.box {
-    border-radius: 0 10px 10px 0;
+.about-column1 .image {
+    padding: 0;
+    height: 100%;
+}
+
+.about-box {
     box-shadow: none;
     background: none;
 }
 
-.box h1{
-    text-align: center;
-    background: transparent;
+.about-box h1{
+    background: none;
     
 }
 
-.box h1 span {
+.about-box h1 span {
+    color: #fde82f;
     border-bottom: 3px solid #f1e573;
+}
+
+.about-box p.line {
+    text-align: left;
+    margin-top: -2rem;
+}
+
+.about-box p.line .line2 {
+    border-bottom: 3px solid #8f873d;
+    text-align: center;
+}
+
+.about-box .about-text {
+    margin-top: 3rem;
+}
+
+.faded-text {
+    color: rgba(241, 229, 115, 0.4);
+}
+
+.grid .cell .image {
+    background: rgba(255, 255, 255, 0.1);
+    border: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 5px 2px #f1e573;
+}
+
+.grid .cell .image img {
+    border: white;
+    border-radius: 2rem;
+    object-fit: cover;
+}   
+
+.grid .cell .image .img-vscode {
+    width: 125%;
+    height: 125%;
+    margin-top: -12.5%;
+}
+
+.grid .cell .image .img-bigger {
+    width: 105%;
+    height: 105%;
+    margin-top: -2.5%;
 }

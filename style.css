@@ -233,6 +233,7 @@ span {
 
 .home-content .block {
     color: white;
+    margin-bottom: 0.3rem;
 }
 
 .typing-text{
@@ -309,7 +310,7 @@ span {
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
-    margin-top: 0;
+    margin-top: 2rem;
     transition: .3s ease;
 }
 

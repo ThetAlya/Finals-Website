@@ -37,27 +37,87 @@
         </nav>
 
         <section class="section is-fullheight">
-            <div class="container has-background-primary">
-                 <div class="tabs is-large is-fullwidth has-background-primary-20">
+            <div class="container has-background-primary-dark">
+                 <div class="tabs is-large is-fullwidth has-background-primary-20 mb-0">
                     <ul>
-                        <li class="is-active"><a href="#">About Me</a></li>
-                        <li><a href="#">Personality</a></li>
-                        <li><a href="#">Skills</a></li>
+                        <li class="is-active" data-target="tab-about"><a href="#">About Me</a></li>
+                        <li data-target="tab-skills"><a href="#" >Skills</a></li>
+                        <li data-target="tab-personality"><a href="#">Personality</a></li>
                     </ul>
                 </div>
 
-                <div class="columns is-gapless">
-                    <div class="column is-one-third">
-                        <figure class="image">
-                            <img src="../images/Aboutme.jpg" alt="bleh">
-                        </figure>
-                    </div>
-                    <div class="column">
-                        <div class="box">
-                            <h1 class="title has-text-link is-1">
-                                <span>About Me</span>
-                            </h1>
+                <div id="tab-content">
+                    <div id="tab-about" class="columns is-gapless">
+                        <div class="about-column-1 column is-one-third">
+                            <figure class="image is-fullheight">
+                                <img src="../images/Aboutme.jpg" alt="bleh">
+                            </figure>
                         </div>
+                        <div class="about-column-2 column">
+                            <div class="about-box box px-6 mt-5">
+                                <h1 class="title has-text-link is-size-1 has-text-left">
+                                    <span>About Me</span>
+                                </h1>
+                                <p class="line is-size-4"><span class="line2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p></span>
+                                
+                                <div class="about-text">
+                                    <p class="block is-size-4 has-text-link-80 mb-3">Hello! My name is Alya</p>
+                                    <p class="block is-size-4 has-text-link-80 mb-0">I am both a programmer and video editor</p>
+                                    <p class="block faded-text is-size-6 mb-5">Although, I believe I am much better at editing</p>
+                                    <p class="block is-size-4 has-text-link-80 mb-0">I focus on the entertainment value the most for all of my works.</p>
+                                    <p class="block is-size-4 has-text-link-80 mb-0">I believe that entertainment is second only to the primary needs of a person.</p>
+                                    <p class="block is-size-4 has-text-link-80 mb-0">And I always try to make my workflow easier and more efficient, rather than sticking to the norm.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="tab-skills" class="is-hidden">
+                        <div class="skills-columns columns is-gapless">
+                            <div class="skills-column-1 column is-one-third">
+                                <div class="skills-columns-title my-5 px-6">
+                                    <h1 class="title has-text-link is-size-3 has-text-centered">
+                                        <span>Programming</span>
+                                    </h1>
+
+                                    <div class="grid">
+                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/html5.webp" alt="HTML"></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/css.webp" alt="CSS"></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/javascript.png" alt="JavaScript"></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/bulma.webp" alt="Bulma CSS"></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/mysql.webp" alt="MySQL"></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img class="img-vscode" src="../images/skills/programming/vscode.webp" alt="VS Code"></figure></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-column-2 column is-one-third">
+                                <figure class="image is-fullheight">
+                                    <img src="#" alt="skills pic">
+                                </figure>
+                            </div>
+
+                            <div class="skills-column-3 column is-one-third">
+                                <div class="skills-columns-title my-5 px-6">
+                                    <h1 class="title has-text-link is-size-3 has-text-centered">
+                                        <span>Editing</span>
+                                    </h1>
+
+                                    <div class="grid has-background-black">
+                                        <div class="cell"><figure class="image is-128x128"><img class="img-bigger" src="../images/skills/editing/resolve.webp" alt="Davinci Resolve"></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img class="img-bigger" src="../images/skills/editing/premierepro.png" alt="Premiere Pro"></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/editing/photoshop.png" alt="Photoshop"></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/editing/aftereffects.webp" alt=""></figure></div>
+                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/editing/audition.webp" alt=""></figure></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="tab-personality" class="is-hidden">
+                        adsadad
                     </div>
                 </div>
 
@@ -65,5 +125,6 @@
         </section>
 
         <script src="../scripts/hamburg.js" async defer></script>
+        <script src="../scripts/aboutmetabs.js" async defer></script>
     </body>
 </html>
