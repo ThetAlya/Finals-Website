@@ -178,19 +178,26 @@ span {
 
 .tabs {
     font-family: 'Poppins', sans-serif;
+    overflow: hidden
 }
 
 .container {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 3rem;
 }
 
-.columns {
-    border-radius: var(--bulma-box-radius);
+.container .tabs {
+    border-radius: 3rem 3rem 0 0;
 }
 
-.about-column1 .image {
+.about-column-1 .image {
     padding: 0;
     height: 100%;
+    border-radius: 0 0 0 3rem;
+}
+
+.about-column-1 .image img {
+    border-radius: 0 0 0 3rem;
 }
 
 .about-box {
@@ -200,7 +207,6 @@ span {
 
 .about-box h1{
     background: none;
-    
 }
 
 .about-box h1 span {
@@ -224,6 +230,11 @@ span {
 
 .faded-text {
     color: rgba(241, 229, 115, 0.4);
+}
+
+.grid .cell {
+    justify-items: center;
+    align-items: center;
 }
 
 .grid .cell .image {
@@ -250,4 +261,96 @@ span {
     width: 105%;
     height: 105%;
     margin-top: -2.5%;
+}
+
+.skills-box {
+    border: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 5px 2px #f1e573;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.skills-box .image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.skills-box .image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.skills-columns-title .title span {
+    font-size: clamp(1rem, 2.3vw, 2.5rem);
+    color: #fde82f;
+    border-bottom: 3px solid #f1e573;
+}
+
+@media(max-width: 768px) {
+    .skills-columns-title .title span {
+        font-size: 2rem
+    }
+}
+
+.persona-box {
+    background: none;
+    box-shadow: none;
+}
+
+.persona-box h1{
+    background: none;
+}
+
+.persona-box h1 span {
+    color: #fde82f;
+    border-bottom: 3px solid #f1e573;
+}
+
+.persona-box p.line {
+    text-align: left;
+    margin-top: -2rem;
+}
+
+.persona-text .persona-likes p.line {
+    border-bottom: 3px solid #8f873d;
+    text-align: center;
+    padding-top: 0.2rem;
+}
+
+.persona-column-1 .image {
+    border-radius: 0 0 0 3rem;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.persona-column-1 .image video {
+    border-radius: 0 0 0 3rem;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media(max-width: 768px) {
+    .about-column-1 .image img {
+        border-radius: 0;
+    }
+
+    .persona-column-1 .image {
+        border-radius: 0;
+    }
+
+    .persona-column-1 .image video {
+        border-radius: 0;
+    }
 }
