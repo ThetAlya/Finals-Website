@@ -20,8 +20,8 @@
                 <div class="links">
                     <div class="link"><a href="../index.html">Home</a></div>
                     <div class="link"><a href="aboutme.html">About Me</a></div>
-                    <div class="link"><a href="#">Portfolio</a></div>
-                    <div class="link"><a href="#">Contacts</a></div>
+                    <div class="link"><a href="portfolio.html">Portfolio</a></div>
+                    <div class="link"><a href="contact.html">Contacts</a></div>
                 </div>
                 <i class="fa fa-bars hamburg" aria-hidden="true" onclick="hamburg()"></i>
             </div>
@@ -29,8 +29,8 @@
                 <div class="links">
                     <a href="../index.html">Home</a>
                     <a href="aboutme.html">About Me</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Contacts</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contacts</a>
                     <i class="fa fa-times cancel" aria-hidden="true" onclick="cancel()"></i>
                 </div>
             </div>
@@ -47,6 +47,7 @@
                 </div>
 
                 <div id="tab-content">
+
                     <div id="tab-about" class="columns is-gapless">
                         <div class="about-column-1 column is-one-third">
                             <figure class="image is-fullheight">
@@ -75,41 +76,48 @@
                     <div id="tab-skills" class="is-hidden">
                         <div class="skills-columns columns is-gapless">
                             <div class="skills-column-1 column is-one-third">
-                                <div class="skills-columns-title my-5 px-6">
+                                <div class="skills-columns-title mt-6 px-6">
                                     <h1 class="title has-text-link is-size-3 has-text-centered">
                                         <span>Programming</span>
                                     </h1>
 
-                                    <div class="grid">
-                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/html5.webp" alt="HTML"></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/css.webp" alt="CSS"></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/javascript.png" alt="JavaScript"></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/bulma.webp" alt="Bulma CSS"></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/programming/mysql.webp" alt="MySQL"></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img class="img-vscode" src="../images/skills/programming/vscode.webp" alt="VS Code"></figure></div>
-                                    </div>
+                                </div>
+                                
+                                <div class="grid px-6 py-6">
+                                    <div class="cell"><figure class="image is-128x128"><img title="HTML5" src="../images/skills/programming/html5.webp" alt="HTML"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="CSS" src="../images/skills/programming/css.webp" alt="CSS"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="JavaScript" src="../images/skills/programming/javascript.png" alt="JavaScript"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="Bulma CSS" src="../images/skills/programming/bulma.webp" alt="Bulma CSS"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="MySQL" src="../images/skills/programming/mysql.webp" alt="MySQL"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="VS Code" class="img-vscode" src="../images/skills/programming/vscode.webp" alt="VS Code"></figure></div>
                                 </div>
                             </div>
 
+                            
                             <div class="skills-column-2 column is-one-third">
-                                <figure class="image is-fullheight">
-                                    <img src="#" alt="skills pic">
-                                </figure>
+                                <div class="skills-box box my-0 py-0 ">
+                                    <figure class="image py-0 my-0">
+                                        <img src="../images/skills/skillscenter.png" alt="skills pic">
+                                    </figure>
+                                </div>
                             </div>
 
-                            <div class="skills-column-3 column is-one-third">
-                                <div class="skills-columns-title my-5 px-6">
+                            <div class="skills-column-3 column is-one-third mb-5">
+                                <div class="skills-columns-title mt-6 px-6">
                                     <h1 class="title has-text-link is-size-3 has-text-centered">
                                         <span>Editing</span>
                                     </h1>
 
-                                    <div class="grid has-background-black">
-                                        <div class="cell"><figure class="image is-128x128"><img class="img-bigger" src="../images/skills/editing/resolve.webp" alt="Davinci Resolve"></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img class="img-bigger" src="../images/skills/editing/premierepro.png" alt="Premiere Pro"></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/editing/photoshop.png" alt="Photoshop"></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/editing/aftereffects.webp" alt=""></figure></div>
-                                        <div class="cell"><figure class="image is-128x128"><img src="../images/skills/editing/audition.webp" alt=""></figure></div>
-                                    </div>
+                                    
+                                </div>
+
+                                <div class="grid px-6 py-6">
+                                    <div class="cell"><figure class="image is-128x128"><img title="Davinci Resolve" class="img-bigger" src="../images/skills/editing/resolve.webp" alt="Davinci Resolve"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="Premiere Pro" class="img-bigger" src="../images/skills/editing/premierepro.png" alt="Premiere Pro"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="Photoshop" src="../images/skills/editing/photoshop.png" alt="Photoshop"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="After Effects" src="../images/skills/editing/aftereffects.webp" alt="After Effects"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="Clip Studio" class="img-bigger" src="../images/skills/editing/clipstudio.webp" alt="Clip Studio"></figure></div>
+                                    <div class="cell"><figure class="image is-128x128"><img title="Audition" src="../images/skills/editing/audition.webp" alt="Audition"></figure></div>
                                 </div>
                             </div>
 
@@ -117,8 +125,48 @@
                     </div>
 
                     <div id="tab-personality" class="is-hidden">
-                        adsadad
+                        <div class="persona-columns columns is-gapless">
+                            <div class="persona-column-1 column is-two-thirds">
+                                <figure class="image is-16by9">
+                                    <video src="../images/personalityvideo.mp4" autoplay muted loop></video>
+                                </figure>
+                            </div>
+                            <div class="persona-column-2 column is-one-third">
+                                <div class="persona-box box pl-4 mt-0">
+
+                                    <div class="persona-content mt-0">
+                                        <h1 class="title has-text-link is-size-2 has-text-left mb-4">
+                                            <span>What I...</span>
+                                        </h1>
+                                                                                
+                                        <div class="persona-text py-0">
+                                            <div class="persona-likes">
+                                                <p class="block is-size-4 has-text-link-60 mb-0 has-text-weight-bold">Like...</p>
+                                                <p class="block is-size-6 has-text-link-80 mb-0">FPS, Horror, and Hard Games are my lifeblood. I love competitive gaming</p>
+                                                <p class="block is-size-6 has-text-link-70 mb-0">Anime! I love sci-fi! Steins;Gate is my favorite</p>
+                                                <p class="block is-size-6 has-text-link-80 mb-0">Plushies, and other cute and fluffy items</p>
+                                                <p class="block is-size-6 has-text-link-70 mb-0">Space and physics; I have always been fascinated by them</p>
+                                                <p class="block is-size-6 has-text-link-80 mb-0">Cosplay and fashion- I love looking cool</p>
+
+                                                <p class="line is-size-4"><span class="line2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p></span>
+                                            </div>
+
+                                            <div class="persona-dislikes mt-1 pb-0 mb-0">
+                                                <p class="block is-size-4 has-text-link-60 mb-0 has-text-weight-bold">Dislike...</p>
+                                                <p class="block is-size-6 has-text-link-80 mb-0">Being bored, not improving, or repeating the same stuff I already know</p>
+                                                <p class="block is-size-6 has-text-link-70 mb-0">Not being able to express myself</p>
+                                                <p class="block is-size-6 has-text-link-80 mb-0">Having my creativity stifled</p>
+                                                <p class="block is-size-6 has-text-link-70 mb-0">People who are not open to new ideas</p>
+                                                <p class="block is-size-6 has-text-link-80 mb-0 pb-0">When There's no internet</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
