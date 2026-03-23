@@ -1,0 +1,89 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --bulma-primary-h: 265deg;
+  --bulma-primary-l: 36%;
+  --bulma-link-h: 54deg;
+  --bulma-link-s: 82%;
+  --bulma-link-l: 70%;
+  --bulma-info-h: 0deg;
+  --bulma-info-s: 0%;
+  --bulma-info-l: 100%;
+  --bulma-family-primary: 'Poppins', sans-serif;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle,rgb(85, 27, 140) 0%, rgb(66, 11, 143) 69%);
+    overflow: hidden;
+}
+
+section {
+    max-width: 50vw;
+    width: 90%;
+    margin: 0 auto 1.5rem;
+    padding: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    color: #f1e573;
+}
+
+.container {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 3rem;
+}
+
+.content {
+    height: 100%;
+}
+
+.card-content .no-padding-margin {
+    margin: -1.5rem -1.5rem 0 -1.5rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    color: #f1e573  ;
+    background-color: transparent;
+    border: 0.2rem solid #f1e573;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 0 1.5rem 0 2rem;
+    transition: .3s ease;
+}
+
+.social-icons a:hover {
+    color: #4C00BA;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #f1e573;
+    box-shadow: 0 0 25px #f1e573;
+}
